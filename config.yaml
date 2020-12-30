@@ -1,0 +1,12 @@
+---
+inventory:
+    plugin: SimpleInventory
+    options:
+        host_file: "/home/alin/Documents/VLAN_Automations/hosts.yaml"
+        group_file: "/home/alin/Documents/VLAN_Automations/groups.yaml"
+        defaults_file: "/home/alin/Documents/VLAN_Automations/defaults.yaml"
+
+runner:
+  plugin: threaded
+  options:
+    num_workers: 100

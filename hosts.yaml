@@ -1,0 +1,12 @@
+---
+
+
+Switch1:
+    hostname: 1.1.1.1
+    platform: 'ios'
+    username: alin
+    password: cisco
+    groups:
+        - cisco_group
+    data:
+        name: Switch1
